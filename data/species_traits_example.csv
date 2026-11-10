@@ -1,0 +1,7 @@
+species_id,plant_height_cm,SLA_cm2_g,LDMC_mg_g,leaf_area_cm2
+Species_A,40,18.2,290,11.4
+Species_B,65,24.1,340,18.9
+Species_C,32,15.7,270,8.1
+Species_D,53,20.4,310,14.2
+Species_E,74,26.3,355,20.1
+Species_F,45,19.5,300,12.6

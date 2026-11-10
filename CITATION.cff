@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use PlantTraitQuant in research, please cite this software."
+title: "PlantTraitQuant: An Integrated R Shiny Toolkit for Plant Trait, Functional Diversity and Germplasm Quantitative Analysis"
+type: software
+authors:
+  - family-names: Mathur
+    given-names: Manish
+    affiliation: "ICAR-Central Arid Zone Research Institute (ICAR-CAZRI), Jodhpur, Rajasthan, India"
+version: 1.0.0
+date-released: 2026-11-01
+abstract: "Modular R Shiny application for plant traits, functional diversity, germplasm and molecular analyses."
+contact:
+  - email: manish.mathur@icar.org.in

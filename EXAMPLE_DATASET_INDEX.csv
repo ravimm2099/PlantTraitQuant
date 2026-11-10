@@ -1,0 +1,31 @@
+tab,purpose,example_files,expected_input,example_status
+Home & guide,Start here; review scope and navigate modules,,No data required,Not applicable
+Species traits,"Descriptive trait summaries, species summaries, correlations",data/species_traits_example.csv,Species traits; species_id plus descriptors,Existing example / shared example
+Species abundance,Community abundance and taxonomic diversity,data/site_abundance_example.csv,Site-by-species nonnegative abundance,Existing example / shared example
+Trait space (PCA),Standardized PCA of numerical species traits,data/species_traits_example.csv,Species traits; numeric descriptors,Existing example / shared example
+Mixed traits (Gower + PCoA),Mixed continuous and categorical trait ordination,data/mixed_traits_example.csv,Species-level mixed descriptors,Existing example / shared example
+Community beta diversity,Community turnover and taxonomic beta diversity,data/site_abundance_example.csv,Site-by-species abundance,Existing example / shared example
+Community functional diversity,"FDis, RaoQ and functional diversity metrics",data/fd_traits_example.csv; data/fd_abundance_example.csv,Species traits plus site abundance,Existing example / shared example
+Functional richness (2D FRic),Two-dimensional trait-space convex-hull richness,data/fd_traits_example.csv; data/fd_abundance_example.csv,Species traits plus abundance,Existing example / shared example
+Functional evenness (FEve),Functional evenness in trait space,data/fd_traits_example.csv; data/fd_abundance_example.csv,Species traits plus abundance,Existing example / shared example
+Functional divergence (2D FDiv),Functional divergence,data/fd_traits_example.csv; data/fd_abundance_example.csv,Species traits plus abundance,Existing example / shared example
+FD dashboard (all indices),Combined functional diversity metrics,data/fd_traits_example.csv; data/fd_abundance_example.csv,Species traits plus abundance,Existing example / shared example
+Functional beta diversity,Between-site functional dissimilarity,data/fd_traits_example.csv; data/fd_abundance_example.csv,Species traits plus abundance,Existing example / shared example
+Pairwise functional differences,Pairwise site differences in functional composition,data/fd_traits_example.csv; data/fd_abundance_example.csv,Species traits plus abundance,Existing example / shared example
+Trait-tree beta partition,Trait-tree beta diversity partition,data/fd_traits_example.csv; data/fd_abundance_example.csv,Species traits plus abundance,Existing example / shared example
+Trait-environment associations,Weighted trait-environment associations,data/trait_environment_l.csv; data/trait_environment_r.csv; data/trait_environment_q.csv,"Linked L abundance, R environment, Q traits",Existing example / shared example
+ade4 RLQ & fourth-corner,RLQ and fourth-corner with ade4,data/trait_environment_l.csv; data/trait_environment_r.csv; data/trait_environment_q.csv,"Linked L, R, Q tables",Existing example / shared example
+Functional structure & scales,"Originality, redundancy, specialization, scales",data/functional_structure_traits.csv; data/functional_structure_abundance.csv; data/functional_structure_groups.csv,"Species traits, abundance and optional grouping",Existing example / shared example
+Multidimensional FRic,Convex-hull richness in 2–5 dimensions,data/fd_traits_example.csv; data/fd_abundance_example.csv,Species traits plus abundance,Existing example / shared example
+Core and mini-core collection,Select nested germplasm subsets,data/germplasm_accessions_example.csv,Accession-level quantitative descriptors,Existing example / shared example
+Advanced core selection,Additional accession selection strategies,data/germplasm_accessions_example.csv,Accession-level descriptors,Existing example / shared example
+Core quality evaluation,Compare retained traits and accession representation,data/core_quality_accessions.csv; data/core_quality_selection.csv,Accessions plus selected IDs,Existing example / shared example
+Stratified Core Selection,"Group allocation, native selection, optional published methods",data/stratified_core_example.csv,"accession_id, group and descriptors",Existing example / shared example
+Agronomic & Genetic Variability,"CRD/RCBD, GCV, PCV, heritability, genetic advance",data/agronomic_rcbd_example.csv; data/agronomic_multi_environment_example.csv,"Genotype, replicate, environment and numeric traits",Existing example / shared example
+Core Visualization Dashboard,"PCA, dendrogram, boxplots, range and cluster coverage",data/stratified_core_example.csv; data/core_membership_example.csv,Accession descriptors and optional membership,Existing example / shared example
+Germplasm Multivariate Analysis,"PCA biplot, Euclidean and Mahalanobis D², clusters",data/stratified_core_example.csv,"Accession descriptors, at least two numeric traits",Existing example / shared example
+Molecular SSR & marker core,Diploid SSR diversity and marker-based subsets,data/diploid_ssr_example.csv,"Long accession_id, locus, allele1, allele2",Existing example / shared example
+SNP diversity & genomic core,Diploid SNP diversity and genomic subset,data/diploid_snp_example.csv,"SNP genotype matrix, see module validation",Existing example / shared example
+Method verification,Internal method checks,data/fd_traits_example.csv; data/fd_abundance_example.csv,Module-specific examples or internal fixtures,Existing example / shared example
+Independent benchmarking,Compare independent reference calculations,data/fd_traits_example.csv; data/fd_abundance_example.csv,Module-specific benchmark fixtures,Existing example / shared example
+About,Developer and scientific scope,,No data required,Not applicable

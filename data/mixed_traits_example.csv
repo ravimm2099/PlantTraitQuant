@@ -1,0 +1,9 @@
+species_id,height_cm,SLA_cm2_g,leaf_texture,growth_form,leaf_area_cm2
+Species_A,40,18.2,soft,shrub,11.4
+Species_B,65,24.1,leathery,tree,18.9
+Species_C,32,15.7,soft,herb,8.1
+Species_D,53,20.4,waxy,shrub,14.2
+Species_E,74,26.3,leathery,tree,20.1
+Species_F,45,19.5,waxy,shrub,12.6
+Species_G,28,14.1,soft,herb,7.8
+Species_H,82,29.2,leathery,tree,23.5
